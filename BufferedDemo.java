@@ -19,11 +19,11 @@ public class BufferedDemo {
 			w = new FileWriter("d:\\kd52\\简介.txt");
 			bw = new BufferedWriter(w);
 
-			bw.write("你好！");
+			bw.write("	Hello！");
 			bw.newLine();
 			bw.write("hhshsh");
 			bw.newLine();
-			bw.write("写入完毕！");
+			bw.write("写入！");
 			bw.flush();
 
 			// 输入
